@@ -1,0 +1,32 @@
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.iml
+*.ipr
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Local environment files (containing secrets)
+.env
+.env.local
+.env.*.local
+**/application-local.properties
+
+# Build/runtime directories
+target/
+build/
+node_modules/
+dist/
+dist-ssr/
+out/
+bin/
